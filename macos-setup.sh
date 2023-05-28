@@ -1,3 +1,5 @@
+base64 -d <<<"H4sIAE4hcmQAA8WRuw0FIQwEc6o4yQ3Qh6VN3YAz+s/vZ3M+w4mXvclAIy9eStkuhBzZ5vxTlAs8ojGIjWY0GsSpR3Wc+LPIN9WwI+Nj6zVeD1smp0wvQVY9wltZipREnptS7VZ9mR4RXymomiaG7KNEJkCAJ4Uaej3RPKNU4xGxx5CTOF8TCz+eNLHa/UvpZ8DtNVb7bmUHbfXEpzYDAAA=" | gunzip
+
 # Check if running on macOS:
 unamestr=$(uname)
 if [[ "$unamestr" != 'Darwin' ]]; then
